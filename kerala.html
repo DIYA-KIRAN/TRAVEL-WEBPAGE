@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kerala - Travel Destination</title>
+  <link rel="stylesheet" href="kerala.css">
+</head>
+<body>
+  <!-- Header with navigation links -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li> <!-- Link to Destinations Page -->
+      </ul>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Kerala Section -->
+  <section id="kerala-details">
+    <h2>Welcome to Kerala</h2>
+    <div class="kerala-content">
+      <img src="https://i.pinimg.com/736x/f6/66/b5/f666b51c07f0ac06594f60050e9a068e.jpg" alt="Kerala">
+      <div class="kerala-info">
+        <h3>God's Own Country</h3>
+        <p>Kerala, known as 'God's Own Country', is located in the southern part of India. It is famous for its beautiful backwaters, lush landscapes, pristine beaches, and vibrant culture.</p>
+        <p>Some top attractions in Kerala include:</p>
+        <ul>
+          <li>Alleppey Backwaters</li>
+          <li>Fort Kochi</li>
+          <li>Periyar Wildlife Sanctuary</li>
+          <li>Munnar Tea Gardens</li>
+          <li>Varkala Beach</li>
+        </ul>
+        <p>Kerala offers a perfect blend of scenic beauty, adventure, and cultural richness.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="book-ticket">
+    <button id="book-ticket-btn">Book Ticket</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel Website</p>
+  </footer>
+
+  <script>
+    document.getElementById("book-ticket-btn").addEventListener("click", function() {
+      // Redirect to booking.html with destination name
+      window.location.href = "booking.html?destination=kerala";
+    });
+  </script>
+
+</body>
+</html>

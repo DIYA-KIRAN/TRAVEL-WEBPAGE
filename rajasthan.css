@@ -1,0 +1,156 @@
+/* General Body Styling */
+body {
+  font-family: 'Helvetica Neue', sans-serif; /* Minimalist font */
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  font-size: 18px; /* Larger base font size for better readability */
+  line-height: 1.6; /* Adjusted line-height for better readability */
+  color: #333; /* Dark text for contrast */
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #f39c12; /* Highlight color on hover */
+}
+
+/* Rajasthan Section */
+#rajasthan-details {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 10px;
+}
+
+#rajasthan-details h2 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.rajasthan-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.rajasthan-content img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rajasthan-info {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+}
+
+.rajasthan-info h3 {
+  font-size: 30px; /* Increased font size for heading */
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.rajasthan-info p {
+  font-size: 18px; /* Increased font size for content */
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.rajasthan-info ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+.rajasthan-info ul li {
+  font-size: 18px; /* Increased font size for list items */
+  color: #2c3e50;
+}
+
+/* Book Ticket Button */
+.book-ticket {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#book-ticket-btn {
+  background-color: #f39c12;
+  color: white;
+  font-size: 22px; /* Larger font size */
+  padding: 16px 30px; /* Larger padding for button */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+#book-ticket-btn:hover {
+  background-color: #e67e22; /* Slightly darker color on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .rajasthan-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rajasthan-content img {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .rajasthan-info {
+    max-width: 100%;
+    text-align: center;
+  }
+}

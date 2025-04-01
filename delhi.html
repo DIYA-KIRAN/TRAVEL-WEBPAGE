@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delhi - Travel Destination</title>
+  <link rel="stylesheet" href="delhi.css">
+</head>
+<body>
+  <!-- Header with navigation links -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li> <!-- Link to Destinations Page -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Delhi Section -->
+  <section id="delhi-details">
+    <h2>Welcome to Delhi</h2>
+    <div class="delhi-content">
+      <img src="https://i.pinimg.com/736x/e3/a3/99/e3a3993d87799024e3dbc5b88c3922b9.jpg" alt="Delhi">
+      <div class="delhi-info">
+        <h3>The Heart of Culture and History</h3>
+        <p>Delhi, the capital of India, is a vibrant city that blends ancient history with modern living. From its iconic monuments to its bustling markets, Delhi is a place where every corner has a story to tell.</p>
+        <p>Some top attractions in Delhi include:</p>
+        <ul>
+          <li>Red Fort</li>
+          <li>Qutub Minar</li>
+          <li>India Gate</li>
+          <li>Lotus Temple</li>
+          <li>Jama Masjid</li>
+        </ul>
+        <p>Delhi is a city of contrasts, where the ancient and the modern coexist, offering a rich cultural experience for every visitor.</p>
+      </div>
+    </div>
+  </section>
+  <div class="book-ticket">
+    <button id="book-ticket-btn">Book Ticket</button>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel Website</p>
+  </footer>
+  <script>
+    document.getElementById("book-ticket-btn").addEventListener("click", function() {
+      // Redirect to booking.html with destination name
+      window.location.href = "booking.html?destination=Delhi";
+    });
+  </script>
+
+</body>
+</html>

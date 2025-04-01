@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshadweep - Travel Destination</title>
+  <link rel="stylesheet" href="lakshadeep.css">
+</head>
+<body>
+  <!-- Header with navigation links -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li> <!-- Link to Destinations Page -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Lakshadweep Section -->
+  <section id="lakshadeep-details">
+    <h2>Welcome to Lakshadweep</h2>
+    <div class="lakshadeep-content">
+      <img src="https://i.pinimg.com/736x/90/be/48/90be48d6482bb810ae2a90849d89d1e5.jpg" alt="Lakshadweep">
+      <div class="lakshadeep-info">
+        <h3>Pristine Beauty</h3>
+        <p>Lakshadweep is an archipelago of 36 islands located in the Arabian Sea, known for its unspoiled natural beauty. It is a paradise for beach lovers, with crystal-clear waters, coral reefs, and white sandy beaches.</p>
+        <p>Some top attractions in Lakshadweep include:</p>
+        <ul>
+          <li>Agatti Island</li>
+          <li>Bangaram Island</li>
+          <li>Minicoy Island</li>
+          <li>Kalapathar Beach</li>
+          <li>Marine Life and Coral Reefs</li>
+        </ul>
+        <p>It is a perfect destination for water sports enthusiasts, offering opportunities for snorkeling, diving, and beach relaxation.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="book-ticket">
+    <button id="book-ticket-btn">Book Ticket</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel Website</p>
+  </footer>
+
+  <script>
+    document.getElementById("book-ticket-btn").addEventListener("click", function() {
+      // Redirect to booking.html with destination name
+      window.location.href = "booking.html?destination=lakshadeep";
+    });
+  </script>
+
+</body>
+</html>

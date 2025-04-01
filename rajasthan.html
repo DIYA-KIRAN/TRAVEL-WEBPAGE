@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajasthan - Travel Destination</title>
+  <link rel="stylesheet" href="rajasthan.css">
+</head>
+<body>
+  <!-- Header with navigation links -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li> <!-- Added Destinations Link -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Rajasthan Section -->
+  <section id="rajasthan-details">
+    <h2>Welcome to Rajasthan</h2>
+    <div class="rajasthan-content">
+      <img src="https://i.pinimg.com/736x/56/67/31/5667319be12dbefa6833e82c831d578a.jpg" alt="Rajasthan">
+      <div class="rajasthan-info">
+        <h3>The Land of Kings</h3>
+        <p>Rajasthan is a vibrant and colorful state located in the northwestern part of India. Known for its rich cultural heritage, stunning palaces, majestic forts, and beautiful desert landscapes, Rajasthan is a must-visit destination.</p>
+        <p>Some top attractions in Rajasthan include:</p>
+        <ul>
+          <li>Jaipur - The Pink City</li>
+          <li>Udaipur - The City of Lakes</li>
+          <li>Jodhpur - The Blue City</li>
+          <li>Jaisalmer - The Golden City</li>
+          <li>Pushkar - The Sacred City</li>
+        </ul>
+        <p>Rajasthan is a land of royalty, ancient history, and vibrant culture, offering a truly unforgettable experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="book-ticket">
+    <button id="book-ticket-btn">Book Ticket</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel Website</p>
+  </footer>
+
+  <script>
+    document.getElementById("book-ticket-btn").addEventListener("click", function() {
+      // Redirect to booking.html with destination name
+      window.location.href = "booking.html?destination=rajastan";
+    });
+  </script>
+
+</body>
+</html>

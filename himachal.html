@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himachal Pradesh - Travel Destination</title>
+  <link rel="stylesheet" href="himachal.css">
+</head>
+<body>
+  <!-- Header with navigation links -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="destination.html">Destinations</a></li> <!-- Link to Destinations Page -->
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Himachal Pradesh Section -->
+  <section id="himachal-details">
+    <h2>Welcome to Himachal Pradesh</h2>
+    <div class="himachal-content">
+      <img src="https://i.pinimg.com/736x/fd/5d/72/fd5d72dfd8712e4741b3ddfcaec0742b.jpg" alt="Himachal Pradesh">
+      <div class="himachal-info">
+        <h3>Land of Snow</h3>
+        <p>Himachal Pradesh, located in the northern part of India, is a state famous for its scenic beauty, snow-covered mountains, lush valleys, and vibrant hill stations. It's a haven for nature lovers, adventure enthusiasts, and those looking to unwind in peaceful surroundings.</p>
+        <p>Some top attractions in Himachal Pradesh include:</p>
+        <ul>
+          <li>Manali</li>
+          <li>Shimla</li>
+          <li>Spiti Valley</li>
+          <li>Kullu Valley</li>
+          <li>Dharamshala</li>
+        </ul>
+        <p>Whether you're looking for adventure sports like trekking and skiing or simply want to enjoy the beauty of nature, Himachal Pradesh offers an unforgettable experience.</p>
+      </div>
+    </div>
+  </section>
+  <div class="book-ticket">
+    <button id="book-ticket-btn">Book Ticket</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Travel Website</p>
+  </footer>
+
+  <script>
+    document.getElementById("book-ticket-btn").addEventListener("click", function() {
+      // Redirect to booking.html with destination name
+      window.location.href = "booking.html?destination=Himachal Pradesh";
+    });
+  </script>
+
+</body>
+</html>

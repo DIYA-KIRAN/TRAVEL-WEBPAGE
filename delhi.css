@@ -1,0 +1,181 @@
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif; /* Consistent font family */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    font-size: 18px; /* Consistent font size */
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333;
+    padding: 15px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  header nav ul li {
+    margin: 0 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  header nav ul li a:hover {
+    color: #f39c12; /* Highlight color on hover */
+  }
+  
+  /* Delhi Section Styling */
+  #delhi-details {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+  }
+  
+  #delhi-details h2 {
+    font-size: 36px;
+    color: #2c3e50; /* Dark color for heading */
+    margin-bottom: 20px;
+  }
+  
+  .delhi-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .delhi-content img {
+    width: 100%;
+    max-width: 400px; /* Consistent size with Kerala and Himachal sections */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .delhi-info {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .delhi-info h3 {
+    font-size: 30px; /* Increased font size */
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .delhi-info p {
+    font-size: 18px;
+    color: #7f8c8d; /* Lighter color for text */
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .delhi-info ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .delhi-info ul li {
+    font-size: 18px;
+    color: #2c3e50;
+  }
+  
+  /* Book Ticket Button Styling */
+  .book-ticket {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #book-ticket-btn {
+    background-color: #f39c12; /* Consistent button color */
+    color: white;
+    font-size: 22px;
+    padding: 16px 30px; /* Increased padding */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #book-ticket-btn:hover {
+    background-color: #e67e22; /* Darker color on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .delhi-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .delhi-content img {
+      max-width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .delhi-info {
+      max-width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    body {
+      font-size: 14px;
+    }
+  
+    #delhi-details h2 {
+      font-size: 28px;
+    }
+  
+    .delhi-info h3 {
+      font-size: 24px;
+    }
+  
+    #book-ticket-btn {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
